@@ -1,4 +1,4 @@
-
+/*
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -10,13 +10,7 @@
   width: 1px;
 
 }
-
-:root {
-  --max-width: 1000px;
-  --accent: #0b5cff;
-  --muted: #666;
-  --gap: 1rem;
-}
+*/
 
 body {
   font-family: Arial;
@@ -54,22 +48,5 @@ table {
   margin-top: .5rem;
 }
 
-th, td {
-  padding: .45rem .5rem;
-  border: 1px solid #eee;
-  text-align: left;
-  font-size: .9rem;
-}
 
-caption {
-  font-weight: 600;
-  padding-bottom: .5rem;
-}
-
-footer.site-footer {
-  padding: 1rem;
-  border-top: 1px solid #eee;
-  font-size: .9rem;
-  color: var(--muted);
-}
 
