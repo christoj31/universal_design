@@ -11,9 +11,15 @@
 
 }
 */
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Smooch+Sans:wght@100..900&display=swap');
+
 
 body {
-  font-family: Arial;
+  /*font-family: Arial;*/
+  font-family: "Allan", serif;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -25,13 +31,26 @@ body {
 }
 
 .brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(15, 15, 21);
   display: flex;
   align-items: center;
   gap: .75rem;
 }
 
 .brand h1 {
-  font-size: 1.25rem;
+/*
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(155, 128, 8);
+  font-size: 2.25rem;
   margin: 0;
 }
 
@@ -42,8 +61,39 @@ main {
   gap: 1.5rem;
 }
 
+.contents {
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(155, 128, 8);
+}
+
+.section_header {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(155, 128, 8);
+  font-size: 1.25rem;
+}
+
+.subsection_header {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(15, 15, 21);
+  font-size: 1.1rem;
+
+}
+
 table {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(15, 15, 21);
   width: 100%;
+  border-radius: 10%;
+  border-color: #111;
   border-collapse: collapse;
   margin-top: .5rem;
 }
