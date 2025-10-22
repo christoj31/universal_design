@@ -13,7 +13,7 @@
     <header class="site-header">
       <div class="brand" aria-hidden="false">
         <figure style="margin:0">
-          <img src="./img/shedeur-profile.jpg" alt="Shedeur Sanders portrait" width="96" height="100" />
+          <img src="./img/shedeur-profile.jpg" alt="Shedeur Sanders portrait" width="96" height="100">
         </figure>
         <div id="home">
           <h1>Shedeur Sanders</h1>
@@ -83,6 +83,17 @@
 
         </section>
 
+
+        <section id="professional-career">
+            <div class="section_header">
+                <h3>Professional career</h3>
+            </div>
+          <p>On April 26, 2025, Sanders was selected in the fifth round (144th overall) by the Cleveland Browns in the 2025 NFL Draft. He signed a four-year contract with the Browns and joined the team as a rookie. Media coverage during and after the draft included various analyses and some critical scouting remarks; the league later investigated an incident involving a prank call to Sanders during the draft process.</p>
+        <figure style="margin-left: 32%;" >
+          <img src="./img/shedeur-browns.jpg" alt="Shedeur Sanders with Cleveland Browns" width="324" height="225" />
+        </figure>
+        </section>
+
         <section id="statistics">
             <div class="section_header">
                 <h3>College statistics</h3>
@@ -119,22 +130,14 @@
               <tr>
                 <td>2024</td><td>Colorado</td><td>13</td><td>353</td><td>477</td><td>74.0</td><td>4,134</td><td>37</td><td>10</td><td>100</td><td>-50</td><td>4</td>
               </tr>
+            </tbody>
+            <tfoot>
               <tr>
                 <td><strong>Career</strong></td><td colspan="11">50 GP — 1,263 completions on 1,803 attempts, 14,327 passing yards, 134 TD, 27 INT, 399 rush attempts for 29 yards and 17 rush TDs</td>
               </tr>
-            </tbody>
+            </tfoot>
           </table>
           <p class="sr-only">Table lists year-by-year passing and rushing college statistics for Shedeur Sanders (2021–2024).</p>
-        </section>
-
-        <section id="professional-career">
-            <div class="section_header">
-                <h3>Professional career</h3>
-            </div>
-          <p>On April 26, 2025, Sanders was selected in the fifth round (144th overall) by the Cleveland Browns in the 2025 NFL Draft. He signed a four-year contract with the Browns and joined the team as a rookie. Media coverage during and after the draft included various analyses and some critical scouting remarks; the league later investigated an incident involving a prank call to Sanders during the draft process.</p>
-        <figure style="margin-left: 32%;" >
-          <img src="./img/shedeur-browns.jpg" alt="Shedeur Sanders with Browns" width="324" height="225" />
-        </figure>
         </section>
 
         <section id="personal-life">
@@ -146,31 +149,27 @@
           </p>
         </section>
 
-
-
-        <section>
-          <h2>Form Example</h2>
-          <form id="test_form" method="post">
+        <section id="our_page">
+          <div class="section_header">
+                <h3>Our Page</h3>
+            </div>
+          <form id="test_form" action="submit_form" method="post">
             <fieldset>
-              <legend>Give me your info!</legend>
-                <label for="username">
-                  Enter you name...
-                  <input type="text" id="username" placeholder="first name...">
-                </label>
+              <legend>Subscribe for more articles and updates!</legend>
+                
+              <label for="name">Enter you name...</label>
+              <input type="text" id="name" placeholder="your name..." required>
 
-                <label for="username">
-                  Enter you name...
-                  <input type="text" id="last name" placeholder="last name...">
-                </label>
+              <label for="email">Enter you email...</label>
+              <input type="text" id="email" autocomplete="email" placeholder="your email..." required>
 
-              <input type="submit">
+              <label for="receive" style="margin-top: 25px; margin-left: 160px;">Recieve Updates and Promotions</label>
+              <input type="checkbox" id="receive" style="margin-bottom: 55px;">
+
+              <input type="submit" value="Subscribe">
             </fieldset>
           </form>
         </section>
-
-
-
-
 
         <footer id="references" style="margin-top:1.5rem">
             <div class="section_header">
@@ -182,7 +181,7 @@
 
       <aside>
         <div class="section_header">
-            <h4>Quick facts</h4>
+            <h3>Quick facts</h3>
         </div>
         <dl>
           <dt>Born</dt><dd>February 7, 2002 (Tyler, Texas)</dd>
@@ -197,8 +196,15 @@
         </dl>
 
         <section>
-          <h5>Jersey</h5>
-          <p style="font-size:.9rem;color:var(--muted)">Colorado announced Sanders's jersey number would be retired in April 2025.</p>
+          <div class="section_header">
+              <h3>Jersey</h3>
+            </div>
+            <div style="padding: 10px; border: 1px solid black; border-radius: 10px;">
+              <p style="font-size:.9rem;color:var(--muted);">Colorado announced Sanders's jersey number would be retired in April 2025.</p>
+              <figure style="margin:0">
+                <img src="./img/jersey.jpg" alt="Shedeur Sanders Colorado Jersey" width="150" height="160" style="padding-left: 25%;" />
+              </figure>
+            </div>
         </section>
       </aside>
     </main>
